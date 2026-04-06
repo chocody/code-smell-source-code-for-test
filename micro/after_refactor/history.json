@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "date_time": "2026-04-07 03:13:05.741734",
+        "target_file": "main.py",
+        "duration_seconds": 3.226568180820004e-06,
+        "emission_kg": 3.3105963338321627e-06,
+        "energy_consumed_kWh": 6.02383322233796e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 7.501591798783165,
+        "total_emissions_gCO2eq": 4.5188337897928e-05,
+        "lines_of_code": 722,
+        "sci_gCO2eq_per_line": 6.258772562039889e-08,
+        "status": "Initial",
+        "cfp": 167,
+        "sci_per_cfp": 7.516356935783102e-11,
+        "improvement_percent": null,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 436
+            },
+            "DuplicatedCode": {
+                "count": 5,
+                "loc": 66
+            },
+            "LongMethod": {
+                "count": 2,
+                "loc": 179
+            },
+            "DeadCode": {
+                "count": 9,
+                "loc": 23
+            },
+            "MutableDefaultArguments": {
+                "count": 6,
+                "loc": 6
+            }
+        }
+    },
+    {
+        "id": 2,
+        "date_time": "2026-04-07 03:14:11.251130",
+        "target_file": "main.py",
+        "duration_seconds": 3.2088815292763086e-06,
+        "emission_kg": 3.1979512269612863e-06,
+        "energy_consumed_kWh": 5.818868536620104e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 7.3062628415158,
+        "total_emissions_gCO2eq": 4.251418296877289e-05,
+        "lines_of_code": 346,
+        "sci_gCO2eq_per_line": 1.2287336118142453e-07,
+        "status": "Hotter \u26a0\ufe0f",
+        "cfp": 55,
+        "sci_per_cfp": 2.1471809580188329e-10,
+        "improvement_percent": -96.32181863687511,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 183
+            },
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 14
+            },
+            "LongMethod": {
+                "count": 2,
+                "loc": 149
+            }
+        }
+    }
+]
