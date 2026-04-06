@@ -1,0 +1,19 @@
+from .customer import CUSTOMER_SCHEMA, SUPPLIER_SCHEMA
+from .employee import EMPLOYEE_SCHEMA
+from .finance import FINANCE_SCHEMA
+from .inventory import INVENTORY_SCHEMA, SHIPMENT_SCHEMA
+from .procurement import PROCUREMENT_SCHEMA
+from .sales import CRM_SCHEMA, PRODUCT_SCHEMA, SALES_SCHEMA
+
+__all__ = [
+    "CRM_SCHEMA",
+    "CUSTOMER_SCHEMA",
+    "PRODUCT_SCHEMA",
+    "EMPLOYEE_SCHEMA",
+    "FINANCE_SCHEMA",
+    "INVENTORY_SCHEMA",
+    "PROCUREMENT_SCHEMA",
+    "SALES_SCHEMA",
+    "SHIPMENT_SCHEMA",
+    "SUPPLIER_SCHEMA",
+]
