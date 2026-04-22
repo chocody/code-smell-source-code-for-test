@@ -4,6 +4,22 @@ Input sources:
 - before_refactor_10_runs_summary.json (runs 1-10)
 - after_refactor_10_runs_summary.json (runs 11-20)
 
+Code Smell Findings
+- Before refactor:
+  - DuplicatedCode: 1 issue
+  - LongMethod: 1 issue
+  - Total: 2 issues
+
+- After refactor:
+  - DuplicatedCode: 0 issue
+  - LongMethod: 0 issue
+  - Total: 0 issues
+
+- Change:
+  - DuplicatedCode: -1 issue (100% reduction)
+  - LongMethod: -1 issue (100% reduction)
+  - Total smells: -2 issues (100% reduction)
+
 Average Metrics
 - duration_seconds:
   before = 1.3262304450012016e-07
