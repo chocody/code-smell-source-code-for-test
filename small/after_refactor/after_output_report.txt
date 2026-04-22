@@ -1,1 +1,1 @@
-{'total_revenue': 79057658.16, 'region_totals': {'EU': 19110371.669999987, 'NA': 20487097.229999974, 'LATAM': 20300202.449999988, 'APAC': 19159986.809999973}, 'inventory_passes': 3, 'merged_chunks': 6}
+{'total_revenue': 79057658.1600005, 'region_totals': {'EU': 19110371.669999987, 'NA': 20487097.229999974, 'LATAM': 20300202.449999988, 'APAC': 19159986.809999973}, 'inventory_passes': 3, 'merged_chunks': 6}

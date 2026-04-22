@@ -1,0 +1,57 @@
+Zombie main.py - Before vs After Refactor (10 runs each)
+
+Input sources:
+- before_refactor_10_runs_summary.json (runs 1-10)
+- after_refactor_10_runs_summary.json (runs 11-20)
+
+Average Metrics
+- duration_seconds:
+  before = 1.3262304450012016e-07
+  after  = 1.4990082372063166e-07
+  diff   = +1.72777792205115e-08 (+13.03%)
+
+- emission_kg:
+  before = 1.3852403539293244e-07
+  after  = 1.4882153560495092e-07
+  diff   = +1.0297500212018478e-08 (+7.43%)
+
+- energy_consumed_kWh:
+  before = 2.52052984522688e-07
+  after  = 2.707899181833334e-07
+  diff   = +1.8736933660645425e-08 (+7.43%)
+
+- emissions_rate_gCO2eq_per_kWh:
+  before = 19.953932235932108
+  after  = 24.916586428407793
+  diff   = +4.962654192475686 (+24.87%)
+
+- total_emissions_gCO2eq:
+  before = 6.12114666244486e-06
+  after  = 6.7471196446757915e-06
+  diff   = +6.259729822309317e-07 (+10.23%)
+
+- lines_of_code:
+  before = 201.0
+  after  = 0.0
+  diff   = -201.0 (-100.00%)
+
+- sci_gCO2eq_per_line:
+  before = 3.045346598231273e-08
+  after  = 0.0
+  diff   = -3.045346598231273e-08 (-100.00%)
+
+- cfp:
+  before = 8.0
+  after  = 14.0
+  diff   = +6.0 (+75.00%)
+
+- sci_per_cfp:
+  before = 2.125398146682243e-10
+  after  = 1.338714215213451e-10
+  diff   = -7.86683931468792e-11 (-37.01%)
+
+Interpretation notes
+- Smell results improved from detected smells before refactor to none after refactor.
+- Raw carbon/energy averages increased in this sample window.
+- Function-point-normalized metric (sci_per_cfp) improved (lower is better).
+- lines_of_code=0 in after runs comes from the tool's post-refactor reporting logic and can skew per-line metrics.

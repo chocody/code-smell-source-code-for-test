@@ -1,0 +1,472 @@
+[
+    {
+        "id": 1,
+        "date_time": "2026-04-22 15:43:58.952842",
+        "target_file": "main.py",
+        "duration_seconds": 1.0169710012976913e-08,
+        "emission_kg": 1.2519850116254416e-08,
+        "energy_consumed_kWh": 2.2780635711538417e-08,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 0.014887024839546587,
+        "total_emissions_gCO2eq": 3.3913588969833444e-10,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 1.687243232330022e-12,
+        "status": "Initial",
+        "cfp": 8,
+        "sci_per_cfp": 1.1775551725636612e-14,
+        "improvement_percent": null,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 2,
+        "date_time": "2026-04-22 15:44:41.516916",
+        "target_file": "main.py",
+        "duration_seconds": 1.8269674807519396e-08,
+        "emission_kg": 2.3743325110131966e-08,
+        "energy_consumed_kWh": 4.320243732089961e-08,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 0.028664773286239394,
+        "total_emissions_gCO2eq": 1.238388071216555e-09,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 6.1611346826694275e-12,
+        "status": "Hotter \u26a0\ufe0f",
+        "cfp": 8,
+        "sci_per_cfp": 4.299958580613039e-14,
+        "improvement_percent": -265.15983970853586,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 3,
+        "date_time": "2026-04-22 15:52:05.524794",
+        "target_file": "main.py",
+        "duration_seconds": 1.157239408958414e-07,
+        "emission_kg": 1.4043469545635253e-07,
+        "energy_consumed_kWh": 2.5552954777777425e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.9273196000586,
+        "total_emissions_gCO2eq": 6.3696667047150225e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 3.168988410305981e-08,
+        "status": "Hotter \u26a0\ufe0f",
+        "cfp": 8,
+        "sci_per_cfp": 2.2116898280260494e-10,
+        "improvement_percent": -514251.42608065135,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 4,
+        "date_time": "2026-04-22 15:53:24.117997",
+        "target_file": "main.py",
+        "duration_seconds": 2.1256961536581337e-07,
+        "emission_kg": 2.0520490178060333e-07,
+        "energy_consumed_kWh": 3.733829135555565e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.942127855266914,
+        "total_emissions_gCO2eq": 9.312964368874763e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 4.633315606405355e-08,
+        "status": "Hotter \u26a0\ufe0f",
+        "cfp": 8,
+        "sci_per_cfp": 3.233668183637071e-10,
+        "improvement_percent": -46.208032548720674,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 5,
+        "date_time": "2026-04-22 15:53:27.018292",
+        "target_file": "main.py",
+        "duration_seconds": 1.9370408178575178e-07,
+        "emission_kg": 1.6841574547504402e-07,
+        "energy_consumed_kWh": 3.064427856666673e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.936067851655437,
+        "total_emissions_gCO2eq": 7.64147809603432e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 3.801730396036975e-08,
+        "status": "Greener \u2705",
+        "cfp": 8,
+        "sci_per_cfp": 2.653291005567473e-10,
+        "improvement_percent": 17.947950906231167,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 6,
+        "date_time": "2026-04-22 15:53:29.665721",
+        "target_file": "main.py",
+        "duration_seconds": 1.5338558534205742e-07,
+        "emission_kg": 1.6390761192141356e-07,
+        "energy_consumed_kWh": 2.982399599722218e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.93154321142679,
+        "total_emissions_gCO2eq": 7.4355824494216434e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 3.6992947509560415e-08,
+        "status": "Normal",
+        "cfp": 8,
+        "sci_per_cfp": 2.581799461604737e-10,
+        "improvement_percent": 2.694447906871964,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 7,
+        "date_time": "2026-04-22 15:53:32.423898",
+        "target_file": "main.py",
+        "duration_seconds": 1.1577813153525392e-07,
+        "emission_kg": 1.7214022334687004e-07,
+        "energy_consumed_kWh": 3.132197017499997e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.943389304155637,
+        "total_emissions_gCO2eq": 7.812760958481761e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 3.886945750488438e-08,
+        "status": "Normal",
+        "cfp": 8,
+        "sci_per_cfp": 2.712764221695056e-10,
+        "improvement_percent": -5.072615516346744,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 8,
+        "date_time": "2026-04-22 15:53:35.143557",
+        "target_file": "main.py",
+        "duration_seconds": 1.6954086791374626e-07,
+        "emission_kg": 1.7129697795279507e-07,
+        "energy_consumed_kWh": 3.1168536500000013e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.938318986397604,
+        "total_emissions_gCO2eq": 7.77290905576177e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 3.8671189332148115e-08,
+        "status": "Normal",
+        "cfp": 8,
+        "sci_per_cfp": 2.698926755472837e-10,
+        "improvement_percent": 0.5100873165295751,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 9,
+        "date_time": "2026-04-22 15:53:37.824622",
+        "target_file": "main.py",
+        "duration_seconds": 1.641008371520647e-07,
+        "emission_kg": 1.5895698698903425e-07,
+        "energy_consumed_kWh": 2.892319940555554e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.937321908330123,
+        "total_emissions_gCO2eq": 7.212671341951609e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 3.588393702463487e-08,
+        "status": "Normal",
+        "cfp": 8,
+        "sci_per_cfp": 2.5043997715109756e-10,
+        "improvement_percent": 7.207568103410121,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 10,
+        "date_time": "2026-04-22 15:53:40.446731",
+        "target_file": "main.py",
+        "duration_seconds": 1.7298800019017638e-07,
+        "emission_kg": 1.6862003578082489e-07,
+        "energy_consumed_kWh": 3.0681450441666664e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.939681843904182,
+        "total_emissions_gCO2eq": 7.651856125246801e-06,
+        "lines_of_code": 201,
+        "sci_gCO2eq_per_line": 3.80689359465015e-08,
+        "status": "Normal",
+        "cfp": 8,
+        "sci_per_cfp": 2.656894487932917e-10,
+        "improvement_percent": -6.0890724458874015,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 4
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 197
+            }
+        }
+    },
+    {
+        "id": 11,
+        "date_time": "2026-04-22 15:59:01.966530",
+        "target_file": "main.py",
+        "duration_seconds": 1.094200149679724e-07,
+        "emission_kg": 1.439337950036384e-07,
+        "energy_consumed_kWh": 2.6189637416666534e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.912140443062526,
+        "total_emissions_gCO2eq": 6.524399254768819e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Greener \u2705",
+        "cfp": 14,
+        "sci_per_cfp": 1.29452366166048e-10,
+        "improvement_percent": 100.0,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 12,
+        "date_time": "2026-04-22 15:59:09.953612",
+        "target_file": "main.py",
+        "duration_seconds": 1.0580045766608528e-07,
+        "emission_kg": 1.818147079380561e-07,
+        "energy_consumed_kWh": 3.308230202500007e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.897111416190853,
+        "total_emissions_gCO2eq": 8.23653759420503e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.6342336496438552e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 13,
+        "date_time": "2026-04-22 15:59:11.308310",
+        "target_file": "main.py",
+        "duration_seconds": 1.127044210612701e-07,
+        "emission_kg": 1.34804011573528e-07,
+        "energy_consumed_kWh": 2.4528417286111114e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.90223235943645,
+        "total_emissions_gCO2eq": 6.1081234666795654e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.2119292592618185e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 14,
+        "date_time": "2026-04-22 15:59:12.770723",
+        "target_file": "main.py",
+        "duration_seconds": 1.7906838246948875e-07,
+        "emission_kg": 1.3040468513395072e-07,
+        "energy_consumed_kWh": 2.3727932838888893e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.913801835931732,
+        "total_emissions_gCO2eq": 5.91153016724375e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.1729226522309027e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 15,
+        "date_time": "2026-04-22 15:59:14.183457",
+        "target_file": "main.py",
+        "duration_seconds": 1.257392323474045e-07,
+        "emission_kg": 1.369413669885554e-07,
+        "energy_consumed_kWh": 2.4917322222222205e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.919129747735038,
+        "total_emissions_gCO2eq": 6.2091798542167665e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.2319801298049142e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 16,
+        "date_time": "2026-04-22 15:59:15.631147",
+        "target_file": "main.py",
+        "duration_seconds": 1.7846395047543965e-07,
+        "emission_kg": 1.6112698473368504e-07,
+        "energy_consumed_kWh": 2.93180438138889e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.934536628314934,
+        "total_emissions_gCO2eq": 7.310318373479548e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.4504599947380058e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 17,
+        "date_time": "2026-04-22 15:59:17.053079",
+        "target_file": "main.py",
+        "duration_seconds": 1.7173042314956713e-07,
+        "emission_kg": 1.286605441882663e-07,
+        "energy_consumed_kWh": 2.3410575688888914e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.91906087909508,
+        "total_emissions_gCO2eq": 5.833695608060861e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.1574792873136631e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 18,
+        "date_time": "2026-04-22 15:59:18.489020",
+        "target_file": "main.py",
+        "duration_seconds": 1.2270749970993915e-07,
+        "emission_kg": 1.372854276398177e-07,
+        "energy_consumed_kWh": 2.497992616944442e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.925310446547567,
+        "total_emissions_gCO2eq": 6.226324147052399e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.2353817752088093e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 19,
+        "date_time": "2026-04-22 15:59:19.903568",
+        "target_file": "main.py",
+        "duration_seconds": 1.7756344491403347e-07,
+        "emission_kg": 1.6150986140940223e-07,
+        "energy_consumed_kWh": 2.9387710575000004e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.927388775592878,
+        "total_emissions_gCO2eq": 7.325588867276272e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.4534898546183078e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    },
+    {
+        "id": 20,
+        "date_time": "2026-04-22 15:59:24.335355",
+        "target_file": "main.py",
+        "duration_seconds": 2.158104104451161e-07,
+        "emission_kg": 1.717339714406091e-07,
+        "energy_consumed_kWh": 3.124805014722237e-07,
+        "region": "samut prakan",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.9151517521709,
+        "total_emissions_gCO2eq": 7.785499113774915e-06,
+        "lines_of_code": 0,
+        "sci_gCO2eq_per_line": 0,
+        "status": "Normal",
+        "cfp": 14,
+        "sci_per_cfp": 1.544741887653753e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {}
+    }
+]
