@@ -1,0 +1,53 @@
+micro - Before vs After Refactor (10 runs each)
+
+Input: main.py (before), main_refactored.py (after)
+
+Average Metrics
+- duration_seconds:
+  before = 2.4032574046593555e-07
+  after  = 2.4867924283952885e-07
+  diff   = +8.353502373593295e-09 (+3.48%)
+
+- emission_kg:
+  before = 2.5201890331150885e-07
+  after  = 2.2084826964745413e-07
+  diff   = -3.117063366405472e-08 (-12.37%)
+
+- energy_consumed_kWh:
+  before = 4.585638626222224e-07
+  after  = 4.018469815250002e-07
+  diff   = -5.6716881097222186e-08 (-12.37%)
+
+- emissions_rate_gCO2eq_per_kWh:
+  before = 24.96393538448161
+  after  = 24.95238302716164
+  diff   = -0.011552357319967399 (-0.05%)
+
+- total_emissions_gCO2eq:
+  before = 1.14473956185266e-05
+  after  = 1.0027012385318446e-05
+  diff   = -1.4203832332081546e-06 (-12.41%)
+
+- lines_of_code:
+  before = 722.0
+  after  = 346.0
+  diff   = -376.0 (-52.08%)
+
+- sci_gCO2eq_per_line:
+  before = 1.5855118585216893e-08
+  after  = 2.897980458184523e-08
+  diff   = +1.3124685996628338e-08 (+82.78%)
+
+- cfp:
+  before = 167.0
+  after  = 55.0
+  diff   = -112.0 (-67.07%)
+
+- sci_per_cfp:
+  before = 1.9040910875792742e-11
+  after  = 5.0641476693527514e-11
+  diff   = +3.1600565817734775e-11 (+165.96%)
+
+Status counts
+- before: {'Initial': 1, 'Greener ✅': 3, 'Normal': 5, 'Hotter ⚠️': 1}
+- after: {'Initial': 1, 'Hotter ⚠️': 2, 'Normal': 7}

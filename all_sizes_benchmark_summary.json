@@ -1,0 +1,311 @@
+{
+  "title": "Aggregate before/after benchmark summary across source sizes",
+  "notes": [
+    "micro, small, medium use 10 before + 10 after runs",
+    "large uses 3 before + 3 after runs",
+    "Values come from per-folder summary json files under <size>/after_refactor/"
+  ],
+  "sizes": [
+    {
+      "size": "micro",
+      "before_runs": 10,
+      "after_runs": 10,
+      "before_emission_kg": 2.5201890331150885e-07,
+      "after_emission_kg": 2.2084826964745413e-07,
+      "emission_change_pct": -12.368371282659757,
+      "before_total_emissions_gCO2eq": 1.14473956185266e-05,
+      "after_total_emissions_gCO2eq": 1.0027012385318446e-05,
+      "total_emissions_change_pct": -12.407916005885125,
+      "before_cfp": 167.0,
+      "after_cfp": 55.0,
+      "cfp_change_pct": -67.06586826347305,
+      "before_sci_per_cfp": 1.9040910875792742e-11,
+      "after_sci_per_cfp": 5.0641476693527514e-11,
+      "sci_per_cfp_change_pct": 165.96141867303987,
+      "before_status_counts": {
+        "Initial": 1,
+        "Greener \u2705": 3,
+        "Normal": 5,
+        "Hotter \u26a0\ufe0f": 1
+      },
+      "after_status_counts": {
+        "Initial": 1,
+        "Hotter \u26a0\ufe0f": 2,
+        "Normal": 7
+      },
+      "before_smell_breakdown": {
+        "GodClass": {
+          "avg_count": 1.0,
+          "avg_loc": 436.0
+        },
+        "DuplicatedCode": {
+          "avg_count": 5.0,
+          "avg_loc": 66.0
+        },
+        "LongMethod": {
+          "avg_count": 2.0,
+          "avg_loc": 179.0
+        },
+        "DeadCode": {
+          "avg_count": 9.0,
+          "avg_loc": 23.0
+        },
+        "MutableDefaultArguments": {
+          "avg_count": 6.0,
+          "avg_loc": 6.0
+        }
+      },
+      "after_smell_breakdown": {
+        "GodClass": {
+          "avg_count": 1.0,
+          "avg_loc": 183.0
+        },
+        "DuplicatedCode": {
+          "avg_count": 1.0,
+          "avg_loc": 14.0
+        },
+        "LongMethod": {
+          "avg_count": 2.0,
+          "avg_loc": 149.0
+        }
+      },
+      "before_total_loc": 722.0,
+      "after_total_loc": 346.0,
+      "before_total_smell_loc": 710.0,
+      "after_total_smell_loc": 346.0,
+      "before_energy_consumed_kWh": 4.585638626222224e-07,
+      "after_energy_consumed_kWh": 4.018469815250002e-07,
+      "energy_change_pct": -12.368371282659734,
+      "before_duration_seconds": 2.4032574046593555e-07,
+      "after_duration_seconds": 2.4867924283952885e-07,
+      "duration_change_pct": 3.475908305701171
+    },
+    {
+      "size": "small",
+      "before_runs": 10,
+      "after_runs": 10,
+      "before_emission_kg": 9.60016525949592e-06,
+      "after_emission_kg": 7.184737712911134e-07,
+      "emission_change_pct": -92.51602704880064,
+      "before_total_emissions_gCO2eq": 0.0004367886490838382,
+      "after_total_emissions_gCO2eq": 3.267224899244206e-05,
+      "total_emissions_change_pct": -92.51989513441526,
+      "before_cfp": 548.0,
+      "after_cfp": 30.0,
+      "cfp_change_pct": -94.52554744525547,
+      "before_sci_per_cfp": 2.214054385055952e-10,
+      "after_sci_per_cfp": 3.025208240040932e-10,
+      "sci_per_cfp_change_pct": 36.636582211348035,
+      "before_status_counts": {
+        "Initial": 1,
+        "Normal": 9
+      },
+      "after_status_counts": {
+        "Initial": 1,
+        "Normal": 9
+      },
+      "before_smell_breakdown": {
+        "GodClass": {
+          "avg_count": 1.0,
+          "avg_loc": 2802.0
+        },
+        "DuplicatedCode": {
+          "avg_count": 7.0,
+          "avg_loc": 663.0
+        },
+        "LongMethod": {
+          "avg_count": 5.0,
+          "avg_loc": 1926.0
+        },
+        "DeadCode": {
+          "avg_count": 109.0,
+          "avg_loc": 784.0
+        },
+        "MutableDefaultArguments": {
+          "avg_count": 14.0,
+          "avg_loc": 14.0
+        }
+      },
+      "after_smell_breakdown": {
+        "DuplicatedCode": {
+          "avg_count": 1.0,
+          "avg_loc": 3.0
+        },
+        "LongMethod": {
+          "avg_count": 1.0,
+          "avg_loc": 34.0
+        }
+      },
+      "before_total_loc": 6260.0,
+      "after_total_loc": 37.0,
+      "before_total_smell_loc": 6189.0,
+      "after_total_smell_loc": 37.0,
+      "before_energy_consumed_kWh": 1.7468089914527778e-05,
+      "after_energy_consumed_kWh": 1.3073071242944445e-06,
+      "energy_change_pct": -92.51602704880064,
+      "before_duration_seconds": 9.530869803328758e-06,
+      "after_duration_seconds": 7.111156912475169e-07,
+      "duration_change_pct": -92.53881643625903
+    },
+    {
+      "size": "medium",
+      "before_runs": 10,
+      "after_runs": 10,
+      "before_emission_kg": 1.1836597180708846e-06,
+      "after_emission_kg": 1.2534137511980356e-06,
+      "emission_change_pct": 5.893081606328159,
+      "before_total_emissions_gCO2eq": 5.387213343697754e-05,
+      "after_total_emissions_gCO2eq": 5.700733266157831e-05,
+      "total_emissions_change_pct": 5.819704965403847,
+      "before_cfp": 1010.5,
+      "after_cfp": 134.5,
+      "cfp_change_pct": -86.68975754576942,
+      "before_sci_per_cfp": 7.618993286160678e-11,
+      "after_sci_per_cfp": 5.716033424374938e-10,
+      "sci_per_cfp_change_pct": 650.2347370167234,
+      "before_status_counts": {
+        "Initial": 2,
+        "Normal": 4,
+        "Greener \u2705": 2,
+        "Hotter \u26a0\ufe0f": 2
+      },
+      "after_status_counts": {
+        "Normal": 9,
+        "Initial": 1
+      },
+      "before_smell_breakdown": {
+        "GodClass": {
+          "avg_count": 0.9,
+          "avg_loc": 4182.3
+        },
+        "DuplicatedCode": {
+          "avg_count": 7.2,
+          "avg_loc": 56.7
+        },
+        "LongMethod": {
+          "avg_count": 3.7,
+          "avg_loc": 3236.8
+        },
+        "DeadCode": {
+          "avg_count": 88.2,
+          "avg_loc": 567.0
+        },
+        "MutableDefaultArguments": {
+          "avg_count": 97.2,
+          "avg_loc": 97.2
+        }
+      },
+      "after_smell_breakdown": {
+        "LongMethod": {
+          "avg_count": 1.3,
+          "avg_loc": 411.2
+        },
+        "GodClass": {
+          "avg_count": 0.1,
+          "avg_loc": 464.7
+        },
+        "DuplicatedCode": {
+          "avg_count": 0.8,
+          "avg_loc": 6.3
+        },
+        "DeadCode": {
+          "avg_count": 9.8,
+          "avg_loc": 63.0
+        },
+        "MutableDefaultArguments": {
+          "avg_count": 10.8,
+          "avg_loc": 10.8
+        }
+      },
+      "before_total_loc": 8640.4,
+      "after_total_loc": 1011.6,
+      "before_total_smell_loc": 8140.0,
+      "after_total_smell_loc": 955.9999999999999,
+      "before_energy_consumed_kWh": 2.2431407136304576e-06,
+      "after_energy_consumed_kWh": 2.28066325049726e-06,
+      "energy_change_pct": 1.6727678579768286,
+      "before_duration_seconds": 1.2056091364692601e-06,
+      "after_duration_seconds": 1.2458772299614503e-06,
+      "duration_change_pct": 3.340062071038964
+    },
+    {
+      "size": "large",
+      "before_runs": 3,
+      "after_runs": 3,
+      "before_emission_kg": 4.422192283495181e-06,
+      "after_emission_kg": 4.500015927740793e-06,
+      "emission_change_pct": 1.7598430655326915,
+      "before_total_emissions_gCO2eq": 0.0002011894870672298,
+      "after_total_emissions_gCO2eq": 0.00020473045019637118,
+      "total_emissions_change_pct": 1.7600139951438472,
+      "before_cfp": 1489.0,
+      "after_cfp": 1000.6666666666666,
+      "cfp_change_pct": -32.796059995522725,
+      "before_sci_per_cfp": 3.7532551128130326e-11,
+      "after_sci_per_cfp": 8.983505086015472e-10,
+      "sci_per_cfp_change_pct": 2293.5237056887436,
+      "before_status_counts": {
+        "Initial": 1,
+        "Normal": 2
+      },
+      "after_status_counts": {
+        "Normal": 2,
+        "Initial": 1
+      },
+      "before_smell_breakdown": {
+        "GodClass": {
+          "avg_count": 1.0,
+          "avg_loc": 9963.0
+        },
+        "DuplicatedCode": {
+          "avg_count": 14.0,
+          "avg_loc": 1247.0
+        },
+        "LongMethod": {
+          "avg_count": 7.0,
+          "avg_loc": 8508.0
+        },
+        "DeadCode": {
+          "avg_count": 118.0,
+          "avg_loc": 734.0
+        },
+        "MutableDefaultArguments": {
+          "avg_count": 142.0,
+          "avg_loc": 142.0
+        }
+      },
+      "after_smell_breakdown": {
+        "GodClass": {
+          "avg_count": 0.6666666666666666,
+          "avg_loc": 6642.0
+        },
+        "DuplicatedCode": {
+          "avg_count": 10.0,
+          "avg_loc": 833.3333333333334
+        },
+        "LongMethod": {
+          "avg_count": 4.666666666666667,
+          "avg_loc": 5672.0
+        },
+        "DeadCode": {
+          "avg_count": 78.66666666666667,
+          "avg_loc": 489.3333333333333
+        },
+        "MutableDefaultArguments": {
+          "avg_count": 94.66666666666667,
+          "avg_loc": 94.66666666666667
+        }
+      },
+      "before_total_loc": 21258.0,
+      "after_total_loc": 14174.0,
+      "before_total_smell_loc": 20594.0,
+      "after_total_smell_loc": 13731.333333333332,
+      "before_energy_consumed_kWh": 8.046450278657058e-06,
+      "after_energy_consumed_kWh": 8.18805517590754e-06,
+      "energy_change_pct": 1.7598430655326784,
+      "before_duration_seconds": 4.326831195191412e-06,
+      "after_duration_seconds": 4.434066710807515e-06,
+      "duration_change_pct": 2.4783845446819845
+    }
+  ]
+}

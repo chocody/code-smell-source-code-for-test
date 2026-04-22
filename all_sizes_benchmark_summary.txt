@@ -1,0 +1,56 @@
+All Sizes Benchmark Summary
+
+Scope:
+- micro: 10 before + 10 after
+- small: 10 before + 10 after
+- medium: 10 before + 10 after
+- large: 3 before + 3 after
+
+Comparison (after vs before averages):
+- micro
+  total_loc: 722.0 -> 346.0 (-52.08%)
+  total_smell_loc: 710.0 -> 346.0 (-51.27%)
+  duration_seconds: 2.4032574046593555e-07 -> 2.4867924283952885e-07 (+3.48%)
+  energy_consumed_kWh: 4.585638626222224e-07 -> 4.018469815250002e-07 (-12.37%)
+  emission_kg: 2.5201890331150885e-07 -> 2.2084826964745413e-07 (-12.37%)
+  total_emissions_gCO2eq: 1.14473956185266e-05 -> 1.0027012385318446e-05 (-12.41%)
+  cfp: 167.0 -> 55.0 (-67.07%)
+  sci_per_cfp: 1.9040910875792742e-11 -> 5.0641476693527514e-11 (+165.96%)
+  status counts before: {'Initial': 1, 'Greener ✅': 3, 'Normal': 5, 'Hotter ⚠️': 1}
+  status counts after: {'Initial': 1, 'Hotter ⚠️': 2, 'Normal': 7}
+
+- small
+  total_loc: 6260.0 -> 37.0 (-99.41%)
+  total_smell_loc: 6189.0 -> 37.0 (-99.40%)
+  duration_seconds: 9.530869803328758e-06 -> 7.111156912475169e-07 (-92.54%)
+  energy_consumed_kWh: 1.7468089914527778e-05 -> 1.3073071242944445e-06 (-92.52%)
+  emission_kg: 9.60016525949592e-06 -> 7.184737712911134e-07 (-92.52%)
+  total_emissions_gCO2eq: 0.0004367886490838382 -> 3.267224899244206e-05 (-92.52%)
+  cfp: 548.0 -> 30.0 (-94.53%)
+  sci_per_cfp: 2.214054385055952e-10 -> 3.025208240040932e-10 (+36.64%)
+  status counts before: {'Initial': 1, 'Normal': 9}
+  status counts after: {'Initial': 1, 'Normal': 9}
+
+- medium
+  total_loc: 8640.4 -> 1011.6 (-88.29%)
+  total_smell_loc: 8140.0 -> 955.9999999999999 (-88.26%)
+  duration_seconds: 1.2056091364692601e-06 -> 1.2458772299614503e-06 (+3.34%)
+  energy_consumed_kWh: 2.2431407136304576e-06 -> 2.28066325049726e-06 (+1.67%)
+  emission_kg: 1.1836597180708846e-06 -> 1.2534137511980356e-06 (+5.89%)
+  total_emissions_gCO2eq: 5.387213343697754e-05 -> 5.700733266157831e-05 (+5.82%)
+  cfp: 1010.5 -> 134.5 (-86.69%)
+  sci_per_cfp: 7.618993286160678e-11 -> 5.716033424374938e-10 (+650.23%)
+  status counts before: {'Initial': 2, 'Normal': 4, 'Greener ✅': 2, 'Hotter ⚠️': 2}
+  status counts after: {'Normal': 9, 'Initial': 1}
+
+- large
+  total_loc: 21258.0 -> 14174.0 (-33.32%)
+  total_smell_loc: 20594.0 -> 13731.333333333332 (-33.32%)
+  duration_seconds: 4.326831195191412e-06 -> 4.434066710807515e-06 (+2.48%)
+  energy_consumed_kWh: 8.046450278657058e-06 -> 8.18805517590754e-06 (+1.76%)
+  emission_kg: 4.422192283495181e-06 -> 4.500015927740793e-06 (+1.76%)
+  total_emissions_gCO2eq: 0.0002011894870672298 -> 0.00020473045019637118 (+1.76%)
+  cfp: 1489.0 -> 1000.6666666666666 (-32.80%)
+  sci_per_cfp: 3.7532551128130326e-11 -> 8.983505086015472e-10 (+2293.52%)
+  status counts before: {'Initial': 1, 'Normal': 2}
+  status counts after: {'Normal': 2, 'Initial': 1}

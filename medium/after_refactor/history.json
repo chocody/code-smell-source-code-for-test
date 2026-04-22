@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date_time": "2026-04-22 21:47:37.415421",
+        "target_file": "main.py",
+        "duration_seconds": 1.138926993952215e-06,
+        "emission_kg": 1.2235188234035214e-06,
+        "energy_consumed_kWh": 2.2262675945280723e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.935571642760845,
+        "total_emissions_gCO2eq": 5.55132550993116e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 5.7862471439766104e-09,
+        "status": "Initial",
+        "cfp": 1120,
+        "sci_per_cfp": 1.3768168427408632e-11,
+        "improvement_percent": null,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 2,
+        "date_time": "2026-04-22 22:00:18.373596",
+        "target_file": "main.py",
+        "duration_seconds": 1.1532520839180731e-06,
+        "emission_kg": 1.1722211539283432e-06,
+        "energy_consumed_kWh": 2.1329283364448014e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.9966681350049,
+        "total_emissions_gCO2eq": 5.3316101781858775e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 5.55723387344786e-09,
+        "status": "Normal",
+        "cfp": 1120,
+        "sci_per_cfp": 1.3223239529230849e-11,
+        "improvement_percent": 3.957889541015357,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 3,
+        "date_time": "2026-04-22 22:05:40.974981",
+        "target_file": "main.py",
+        "duration_seconds": 1.1410693321474637e-06,
+        "emission_kg": 9.407544921660695e-07,
+        "energy_consumed_kWh": 2.1497914806391996e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 20.032679094353885,
+        "total_emissions_gCO2eq": 4.306608285142098e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 4.4888558319179675e-09,
+        "status": "Greener \u2705",
+        "cfp": 1120,
+        "sci_per_cfp": 1.068107213576909e-11,
+        "improvement_percent": 19.22499692939937,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 4,
+        "date_time": "2026-04-22 22:18:00.865558",
+        "target_file": "main.py",
+        "duration_seconds": 1.2129927779382032e-06,
+        "emission_kg": 1.2824041233130327e-06,
+        "energy_consumed_kWh": 2.3334130118890736e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.99583135045427,
+        "total_emissions_gCO2eq": 5.832559811613483e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 6.079382751316951e-09,
+        "status": "Hotter \u26a0\ufe0f",
+        "cfp": 1120,
+        "sci_per_cfp": 1.4465674135946138e-11,
+        "improvement_percent": -35.4327913159865,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 5,
+        "date_time": "2026-04-22 22:23:25.618856",
+        "target_file": "main.py",
+        "duration_seconds": 1.2342305883683018e-06,
+        "emission_kg": 9.866197680137481e-07,
+        "energy_consumed_kWh": 2.251176357999637e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 20.034595036022118,
+        "total_emissions_gCO2eq": 4.510140668718988e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 4.701001322408785e-09,
+        "status": "Greener \u2705",
+        "cfp": 1120,
+        "sci_per_cfp": 1.1185864753767332e-11,
+        "improvement_percent": 22.67304898033559,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 6,
+        "date_time": "2026-04-22 22:35:47.238137",
+        "target_file": "main.py",
+        "duration_seconds": 1.199366797162602e-06,
+        "emission_kg": 1.2323847930244914e-06,
+        "energy_consumed_kWh": 2.2423997704159183e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.997083768974793,
+        "total_emissions_gCO2eq": 5.605345490461655e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 5.842553148281901e-09,
+        "status": "Hotter \u26a0\ufe0f",
+        "cfp": 1120,
+        "sci_per_cfp": 1.3902146553724345e-11,
+        "improvement_percent": -24.28316325782667,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 7,
+        "date_time": "2026-04-22 22:41:27.020338",
+        "target_file": "main.py",
+        "duration_seconds": 1.2017791571641183e-06,
+        "emission_kg": 1.2330509881791055e-06,
+        "energy_consumed_kWh": 2.2436119533884888e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.99521291874847,
+        "total_emissions_gCO2eq": 5.6079558481994445e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 5.8452739714399044e-09,
+        "status": "Normal",
+        "cfp": 1120,
+        "sci_per_cfp": 1.3908620655256559e-11,
+        "improvement_percent": -0.04656907843112614,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 8,
+        "date_time": "2026-04-22 22:54:59.676552",
+        "target_file": "main.py",
+        "duration_seconds": 1.2303105009925457e-06,
+        "emission_kg": 1.220577254192534e-06,
+        "energy_consumed_kWh": 2.2209152288053563e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.998033913697476,
+        "total_emissions_gCO2eq": 5.551851420912349e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 5.786795310519438e-09,
+        "status": "Normal",
+        "cfp": 1120,
+        "sci_per_cfp": 1.376947277011991e-11,
+        "improvement_percent": 1.0004434557934179,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 9,
+        "date_time": "2026-04-22 23:00:32.957204",
+        "target_file": "main.py",
+        "duration_seconds": 1.2528465010445092e-06,
+        "emission_kg": 1.2735189106377944e-06,
+        "energy_consumed_kWh": 2.317245822082915e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.991068875478128,
+        "total_emissions_gCO2eq": 5.7910449941088056e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 6.036111104970613e-09,
+        "status": "Normal",
+        "cfp": 1120,
+        "sci_per_cfp": 1.4362710798880969e-11,
+        "improvement_percent": -4.3083568896580795,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    },
+    {
+        "id": 10,
+        "date_time": "2026-04-22 23:00:35.302274",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.2913166320045702e-06,
+        "emission_kg": 1.271546873850205e-06,
+        "energy_consumed_kWh": 2.313657580111112e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.99804326890031,
+        "total_emissions_gCO2eq": 5.783691229703676e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.97188143052358e-07,
+        "status": "Initial",
+        "cfp": 25,
+        "sci_per_cfp": 6.42632358855964e-10,
+        "improvement_percent": null,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 11,
+        "date_time": "2026-04-22 23:00:37.650414",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.2421034207943624e-06,
+        "emission_kg": 1.2882592181931554e-06,
+        "energy_consumed_kWh": 2.34406671638889e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.982176952890182,
+        "total_emissions_gCO2eq": 5.855988949820749e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 1.009653267210474e-06,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.506654388689721e-10,
+        "improvement_percent": -1.2500273137986535,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 12,
+        "date_time": "2026-04-22 23:00:39.840785",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.2220389854103783e-06,
+        "emission_kg": 1.2700354504367748e-06,
+        "energy_consumed_kWh": 2.3109074524444442e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.997742153963483,
+        "total_emissions_gCO2eq": 5.776746863787885e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.95990838584118e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.418607626430982e-10,
+        "improvement_percent": 1.353180252078344,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 13,
+        "date_time": "2026-04-22 23:00:42.036780",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.27256118257099e-06,
+        "emission_kg": 1.248466326580568e-06,
+        "energy_consumed_kWh": 2.27166110775e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.995917806470008,
+        "total_emissions_gCO2eq": 5.6782254333473606e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.790043850598897e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.309139370385956e-10,
+        "improvement_percent": 1.705482908695826,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 14,
+        "date_time": "2026-04-22 23:00:44.211460",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.2268165188257877e-06,
+        "emission_kg": 1.2462041785597602e-06,
+        "energy_consumed_kWh": 2.267544990583334e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.99795347732218,
+        "total_emissions_gCO2eq": 5.668398418233715e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.773100721092612e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.298220464704128e-10,
+        "improvement_percent": 0.17306489904280173,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 15,
+        "date_time": "2026-04-22 23:00:46.433116",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.3003643151843829e-06,
+        "emission_kg": 1.2601741324636876e-06,
+        "energy_consumed_kWh": 2.2929641791388885e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.998097976917876,
+        "total_emissions_gCO2eq": 5.7319743207677005e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.882714346151207e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.368860356408556e-10,
+        "improvement_percent": -1.1215849318121074,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 16,
+        "date_time": "2026-04-22 23:00:48.689787",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.3106206734331378e-06,
+        "emission_kg": 1.2661359490805373e-06,
+        "energy_consumed_kWh": 2.3038120703888904e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.99714246797658,
+        "total_emissions_gCO2eq": 5.758871854295518e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.92908940395779e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.398746504772798e-10,
+        "improvement_percent": -0.4692542573047622,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 17,
+        "date_time": "2026-04-22 23:00:50.878522",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.24609444292523e-06,
+        "emission_kg": 1.2418397312068178e-06,
+        "energy_consumed_kWh": 2.259603610750001e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.99869036897802,
+        "total_emissions_gCO2eq": 5.648713102176402e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.739160520993797e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.276347891307113e-10,
+        "improvement_percent": 1.91285298416475,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 18,
+        "date_time": "2026-04-22 23:00:58.048490",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.2109225280110166e-06,
+        "emission_kg": 1.2260593652270079e-06,
+        "energy_consumed_kWh": 2.2308902663055592e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.998607993768626,
+        "total_emissions_gCO2eq": 5.576915124448677e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.615370904221857e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.196572360498529e-10,
+        "improvement_percent": 1.2710501742434455,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 19,
+        "date_time": "2026-04-22 23:01:00.265728",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 1.2352085026193837e-06,
+        "emission_kg": 1.2358484152644577e-06,
+        "energy_consumed_kWh": 2.248702043666667e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.998673830167444,
+        "total_emissions_gCO2eq": 5.621456893085396e-05,
+        "lines_of_code": 58,
+        "sci_gCO2eq_per_line": 9.692167057043785e-07,
+        "status": "Normal",
+        "cfp": 25,
+        "sci_per_cfp": 6.246063214539329e-10,
+        "improvement_percent": -0.7986811282361377,
+        "smell_breakdown": {
+            "LongMethod": {
+                "count": 1,
+                "loc": 58
+            }
+        }
+    },
+    {
+        "id": 20,
+        "date_time": "2026-04-22 23:13:21.252587",
+        "target_file": "main.py",
+        "duration_seconds": 1.192041729839834e-06,
+        "emission_kg": 1.2511147449675885e-06,
+        "energy_consumed_kWh": 2.2764800675559263e-06,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 24.994911146855987,
+        "total_emissions_gCO2eq": 5.690041701614909e-05,
+        "lines_of_code": 9594,
+        "sci_gCO2eq_per_line": 5.930833543480206e-09,
+        "status": "Initial",
+        "cfp": 1120,
+        "sci_per_cfp": 1.4112206601227456e-11,
+        "improvement_percent": null,
+        "smell_breakdown": {
+            "GodClass": {
+                "count": 1,
+                "loc": 4647
+            },
+            "DuplicatedCode": {
+                "count": 8,
+                "loc": 63
+            },
+            "LongMethod": {
+                "count": 4,
+                "loc": 3590
+            },
+            "DeadCode": {
+                "count": 98,
+                "loc": 630
+            },
+            "MutableDefaultArguments": {
+                "count": 108,
+                "loc": 108
+            }
+        }
+    }
+]

@@ -1,0 +1,55 @@
+large - Before vs After Refactor (3 runs each)
+
+Input: main.py (before), main_refactor.py (after)
+
+Run IDs: before 1-3, after 4-6
+
+Average Metrics
+- duration_seconds:
+  before = 4.326831195191412e-06
+  after  = 4.434066710807515e-06
+  diff   = +1.0723551561610274e-07 (+2.48%)
+
+- emission_kg:
+  before = 4.422192283495181e-06
+  after  = 4.500015927740793e-06
+  diff   = +7.782364424561174e-08 (+1.76%)
+
+- energy_consumed_kWh:
+  before = 8.046450278657058e-06
+  after  = 8.18805517590754e-06
+  diff   = +1.4160489725048112e-07 (+1.76%)
+
+- emissions_rate_gCO2eq_per_kWh:
+  before = 25.00350774731288
+  after  = 25.00352397037807
+  diff   = +1.622306518811456e-05 (+0.00%)
+
+- total_emissions_gCO2eq:
+  before = 0.0002011894870672298
+  after  = 0.00020473045019637118
+  diff   = +3.5409631291413648e-06 (+1.76%)
+
+- lines_of_code:
+  before = 21258.0
+  after  = 14174.0
+  diff   = -7084.0 (-33.32%)
+
+- sci_gCO2eq_per_line:
+  before = 9.464177583367664e-09
+  after  = 1.2595258698188784e-05
+  diff   = +1.2585794520605415e-05 (+132983.50%)
+
+- cfp:
+  before = 1489.0
+  after  = 1000.6666666666666
+  diff   = -488.33333333333337 (-32.80%)
+
+- sci_per_cfp:
+  before = 3.7532551128130326e-11
+  after  = 8.983505086015472e-10
+  diff   = +8.608179574734169e-10 (+2293.52%)
+
+Status counts
+- before: {'Initial': 1, 'Normal': 2}
+- after: {'Normal': 2, 'Initial': 1}
