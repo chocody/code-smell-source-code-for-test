@@ -1,0 +1,25 @@
+{
+  "label": "before_refactor_10_runs",
+  "target_file": "main.py",
+  "sample_size": 10,
+  "source_history_file": "history.json",
+  "run_id_range": {
+    "start": 1,
+    "end": 10
+  },
+  "average_metrics": {
+    "duration_seconds": 4.4183816941321505e-06,
+    "emission_kg": 4.426119031905604e-06,
+    "energy_consumed_kWh": 8.053595238400035e-06,
+    "emissions_rate_gCO2eq_per_kWh": 24.999617533768266,
+    "total_emissions_gCO2eq": 0.00020133765860837538,
+    "lines_of_code": 19132.8,
+    "sci_gCO2eq_per_line": 3.785159532664343e-06,
+    "cfp": 1342.5,
+    "sci_per_cfp": 2.956074068057951e-10
+  },
+  "status_counts": {
+    "Initial": 3,
+    "Normal": 7
+  }
+}

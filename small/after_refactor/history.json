@@ -678,5 +678,33 @@
                 "loc": 34
             }
         }
+    },
+    {
+        "id": 21,
+        "date_time": "2026-04-23 21:05:07.814910",
+        "target_file": "main_refactored.py",
+        "duration_seconds": 6.943763287883026e-08,
+        "emission_kg": 8.003915748333491e-08,
+        "energy_consumed_kWh": 1.4563615956704434e-07,
+        "region": "bangkok",
+        "country_name": "Thailand",
+        "emissions_rate_gCO2eq_per_kWh": 0.09351505558430244,
+        "total_emissions_gCO2eq": 1.3619173556996491e-08,
+        "lines_of_code": 37,
+        "sci_gCO2eq_per_line": 3.68085771810716e-10,
+        "status": "Greener \u2705",
+        "cfp": 30,
+        "sci_per_cfp": 1.2610345886107862e-13,
+        "improvement_percent": 99.95857916403678,
+        "smell_breakdown": {
+            "DuplicatedCode": {
+                "count": 1,
+                "loc": 3
+            },
+            "LongMethod": {
+                "count": 1,
+                "loc": 34
+            }
+        }
     }
 ]
